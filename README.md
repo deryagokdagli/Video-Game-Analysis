@@ -1,45 +1,46 @@
-# Video Oyunları Satış Analizi 🎮📊
+# Video Game Sales Analysis 🎮📊
 
-Bu proje, **Kaggle’dan alınan CSV verisi** kullanılarak video oyunlarının satış ve değerlendirme verilerini analiz etmektedir. Python ile **Pandas**, **Matplotlib** ve **Seaborn** kullanılarak görselleştirmeler oluşturulmuştur.
-
----
-
-## 📌 Proje Hedefleri
-
-- En çok satan oyunları ve yayıncıları incelemek  
-- Yıllara göre satış trendlerini analiz etmek  
-- Platform ve tür bazlı satış farklılıklarını karşılaştırmak  
-- Eleştirmen ve kullanıcı puanları ile satış ilişkisini incelemek  
-- Bölgesel satış dağılımını görmek  
-- Tür bazlı ortalama eleştirmen ve kullanıcı puanlarını karşılaştırmak  
+This project analyzes video game sales and review data using a **CSV dataset from Kaggle**. Visualizations were created using **Python**, **Pandas**, **Matplotlib**, and **Seaborn**.
 
 ---
 
-## 🔍 Analiz Bulguları
+## 📌 Project Goals
 
-- **En Çok Satan Oyunlar ve Yayıncılar:**  
-  Örnek: *Wii Sports* | Yayıncı: *Nintendo* – satış rekorları kıran oyun ve yayıncılar.  
-
-- **Yıllara Göre Satış Trendleri:**  
-  2006-2007 yıllarında ciddi bir yükseliş gözlemlendi, 2007-2013 arasında ise satışlar düştü.  
-
-- **Platform ve Tür Bazlı Satış Analizi:**  
-  Oyun türleri ve platformlar arasında satış farkları belirgin.  
-
-- **Puan ve Satış İlişkisi:**  
-  Kullanıcı ve eleştirmen puanları arasındaki korelasyon: **0.47** – orta derecede pozitif ilişki.  
-
-- **Bölgesel Satış Dağılımı:**  
-  En çok satış **Kuzey Amerika** bölgesinde gerçekleşiyor.  
-
-- **Tür Bazlı Ortalama Eleştirmen ve Kullanıcı Puanı:**  
-  Kullanıcı puanları, eleştirmen puanlarından genellikle biraz daha yüksek.  
+- Examine the top-selling games and publishers  
+- Analyze sales trends over the years  
+- Compare sales across platforms and genres  
+- Explore the relationship between critic and user scores and sales  
+- Observe regional sales distribution  
+- Compare average critic and user scores by genre  
 
 ---
 
-## 🛠 Kullanılan Teknolojiler
+## 🔍 Key Findings
+
+- **Top-Selling Games and Publishers:**  
+  Example: *Wii Sports* | Publisher: *Nintendo* – record-breaking games and publishers at a glance.  
+
+- **Sales Trends Over the Years:**  
+  Significant increase in 2006-2007, followed by a decline from 2007-2013.  
+
+- **Platform and Genre-Based Sales Analysis:**  
+  Noticeable differences in sales between game genres and platforms.  
+
+- **Score and Sales Relationship:**  
+  Correlation between user and critic scores: **0.47** – moderately positive relationship.  
+
+- **Regional Sales Distribution:**  
+  Highest sales observed in **North America**.  
+
+- **Average Critic and User Scores by Genre:**  
+  User scores are generally slightly higher than critic scores.  
+
+---
+
+## 🛠 Technologies Used
 
 - **Python**  
-- **Pandas** – veri işleme  
-- **Matplotlib** – görselleştirme  
-- **Seaborn** – istatistiksel görselleştirme  
+- **Pandas** – data processing  
+- **Matplotlib** – visualization  
+- **Seaborn** – statistical visualization  
+
